@@ -11,7 +11,7 @@ function IMCCalculator() {
     const heightInMeters = height / 100; // Convertir altura de centímetros a metros
     const bmi = weight / (heightInMeters * heightInMeters); // Calcular el IMC
   
-    setResult(bmi.toFixed(2)); 
+    setResult(bmi.toFixed(0)); 
   };
 
   return (
