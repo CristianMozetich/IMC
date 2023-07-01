@@ -23,6 +23,7 @@ function IMCCalculator() {
         value={weight}
         onChange={(e) => setWeight(e.target.value)}
       />
+      <p className='parentesis'>(No utilizar "," para fraccionar la altura. Utilizar ".")</p>
       <input
         type="text"
         placeholder="Altura (cm)"

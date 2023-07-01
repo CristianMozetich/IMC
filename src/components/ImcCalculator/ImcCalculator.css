@@ -19,6 +19,10 @@
     border: 1px solid #cccccc;
     border-radius: 5px;
   }
+
+  .calculadora-imc .parentesis{
+    font-size: 14px;
+  }
   
   .calculadora-imc button {
     display: block;
@@ -48,7 +52,7 @@
   }
   
   .calculadora-imc .resultado .parentesis{
-    font-size: 15px;
+    font-size: 14px;
   }
   
   .calculadora-imc .resultado .valor {
