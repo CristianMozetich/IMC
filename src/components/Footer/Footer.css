@@ -6,20 +6,20 @@
     text-align: center;
   }
   
-  .footer h4 {
+  .footer h6 {
     margin: 0.5rem;
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 40px;
     font-family: 'Poppins', sans-serif;
   }
   
-  .footer h4 a {
-    color: #74a451;
+  .footer h6 a {
+    color: #3d64a7;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
   }
   
-  .footer h4 a:hover {
+  .footer h6 a:hover {
     text-decoration: underline;
   }
   
