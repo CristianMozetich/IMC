@@ -3,7 +3,7 @@ import './Intro.css'
 const Intro = () => {
   return (
     <div className="intro">
-      <p>El sobrepeso puede causar la elevación de la concentración de colesterol total y de la presión arterial, y aumentar el riesgo de sufrir la enfermedad arterial coronaria. La obesidad aumenta las probabilidades de que se presenten otros factores de riesgo cardiovascular, en especial, presión arterial alta, colesterol elevado y diabetes.</p>
+      <p>El sobrepeso puede tener consecuencias negativas para la salud, como el aumento de los niveles de colesterol total y la presión arterial, lo que a su vez aumenta el riesgo de enfermedad arterial coronaria. Además, la obesidad aumenta las probabilidades de desarrollar otros factores de riesgo cardiovascular, como la presión arterial alta, niveles elevados de colesterol y diabetes. Estos factores de riesgo pueden tener un impacto significativo en la salud cardiovascular y aumentar la probabilidad de desarrollar enfermedades relacionadas. Por lo tanto, mantener un peso saludable es importante para reducir el riesgo de problemas de salud asociados con el sobrepeso y la obesidad.</p>
     </div>
   )
 }

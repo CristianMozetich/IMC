@@ -1,11 +1,17 @@
-.intro{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2rem;
-}
-
-.intro p{
-    width: 900px;
-    font-size: 22px;
-}
+.intro {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #84ff0076;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+  }
+  
+  .intro p {
+    margin-bottom: 10px;
+  }
+  
