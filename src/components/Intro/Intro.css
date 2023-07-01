@@ -1,8 +1,11 @@
 .intro{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin: 2rem;
 }
 
 .intro p{
-    width: 500px;
+    width: 900px;
+    font-size: 22px;
 }
