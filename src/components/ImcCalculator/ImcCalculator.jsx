@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './ImcCalculator.css'
 
 function IMCCalculator() {
   const [weight, setWeight] = useState('');
@@ -14,7 +15,7 @@ function IMCCalculator() {
   };
 
   return (
-    <div>
+    <div className="calculadora-imc">
       <h2>Calculadora IMC</h2>
       <input
         type="text"
@@ -29,9 +30,13 @@ function IMCCalculator() {
         onChange={(e) => setHeight(e.target.value)}
       />
       <button onClick={calculateBMI}>Calcular</button>
-      <p>Resultado: {result}</p>
+      <div className="resultado">
+        <p>Resultado:</p>
+        <p className="categoria">Categoría:</p>
+        <p className="valor">{result}</p>
+      </div>
     </div>
   );
-}
+}  
 
 export default IMCCalculator;
