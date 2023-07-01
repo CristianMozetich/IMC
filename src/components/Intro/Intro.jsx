@@ -3,7 +3,7 @@ import './Intro.css'
 const Intro = () => {
   return (
     <div className="intro">
-      <p>El sobrepeso puede tener consecuencias negativas para la salud, como el aumento de los niveles de colesterol total y la presión arterial, lo que a su vez aumenta el riesgo de enfermedad arterial coronaria. Además, la obesidad aumenta las probabilidades de desarrollar otros factores de riesgo cardiovascular, como la presión arterial alta, niveles elevados de colesterol y diabetes. Estos factores de riesgo pueden tener un impacto significativo en la salud cardiovascular y aumentar la probabilidad de desarrollar enfermedades relacionadas. Por lo tanto, mantener un peso saludable es importante para reducir el riesgo de problemas de salud asociados con el sobrepeso y la obesidad.</p>
+      <p>El Índice de Masa Corporal (IMC) es una medida utilizada para evaluar el peso en relación con la estatura de una persona. Se utiliza para determinar si una persona tiene un peso saludable o si se encuentra en riesgo de problemas de salud relacionados con el peso. Es una herramienta útil para evaluar el grado de sobrepeso u obesidad de una persona. Sin embargo, es importante tener en cuenta que el IMC no considera otros factores importantes, como la distribución de la grasa corporal. Por lo tanto, debe complementarse con otras evaluaciones médicas para obtener una imagen completa de la salud.</p>
     </div>
   )
 }
