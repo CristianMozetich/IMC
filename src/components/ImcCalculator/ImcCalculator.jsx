@@ -32,8 +32,8 @@ function IMCCalculator() {
       <button onClick={calculateBMI}>Calcular</button>
       <div className="resultado">
         <p>Resultado:</p>
-        <p className="categoria">Categoría:</p>
         <p className="valor">{result}</p>
+        <p className='parentesis'>(los dos primeros números del resultado son los que cuentan en el rango de IMC)</p>
       </div>
     </div>
   );
