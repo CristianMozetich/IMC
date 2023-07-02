@@ -17,23 +17,23 @@ const IntroTable = () => {
           <td>-18.5</td>
         </tr>
         <tr>
-          <td className='peso-normal'>Peso Normal</td>
+          <td className='peso-normal'>Peso Saludable</td>
           <td>18.5 - 24.9</td>
         </tr>
         <tr>
-          <td className='sobrepeso'>Sobrepeso</td>
+          <td className='sobrepeso'>Peso por encima del rango saludable</td>
           <td>25 - 29.9</td>
         </tr>
         <tr>
-          <td className='obesidad-tipo1'>Obesidad Tipo 1</td>
+          <td className='obesidad-tipo1'>Obesidad Clasificación 1</td>
           <td>30 - 34.9</td>
         </tr>
         <tr>
-          <td className='obesidad-tipo2'>Obesidad Tipo 2</td>
+          <td className='obesidad-tipo2'>Obesidad Clasificación 2</td>
           <td>35 - 39.9</td>
         </tr>
         <tr>
-          <td className='obesidad-tipo3'>Obesidad Tipo 3</td>
+          <td className='obesidad-tipo3'>Obesidad Clasificación 3</td>
           <td>+40</td>
         </tr>
       </tbody>
