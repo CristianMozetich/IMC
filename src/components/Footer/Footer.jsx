@@ -4,7 +4,7 @@ const Footer = () => {
     return (
       <div className="footer">
         <h6>Desarrollado por <a target='_blank' href="https://cristianmozetich.netlify.app/">Cristian Mozetich</a></h6>
-        <p>Movimiento y Salud | 2023</p>
+        <p>Movimiento es salud | 2023</p>
       </div>
     )
   }
